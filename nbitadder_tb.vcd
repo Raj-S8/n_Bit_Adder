@@ -1,0 +1,297 @@
+$date
+	Fri Aug 29 18:25:47 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module nbitadder_tb $end
+$var wire 1 ! cout $end
+$var wire 4 " sum [3:0] $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % cin $end
+$scope module DUT $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 5 ( carry [4:0] $end
+$var wire 1 ) cin $end
+$var wire 1 ! cout $end
+$var wire 4 * sum [3:0] $end
+$scope begin full_adder_gen[0] $end
+$scope module fa $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - c1 $end
+$var wire 1 . c2 $end
+$var wire 1 / cin $end
+$var wire 1 0 cout $end
+$var wire 1 1 s $end
+$var wire 1 2 sum $end
+$scope module ha1 $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - carry $end
+$var wire 1 1 sum $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 1 a $end
+$var wire 1 / b $end
+$var wire 1 . carry $end
+$var wire 1 2 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin full_adder_gen[1] $end
+$scope module fa $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 5 c1 $end
+$var wire 1 6 c2 $end
+$var wire 1 7 cin $end
+$var wire 1 8 cout $end
+$var wire 1 9 s $end
+$var wire 1 : sum $end
+$scope module ha1 $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 5 carry $end
+$var wire 1 9 sum $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 9 a $end
+$var wire 1 7 b $end
+$var wire 1 6 carry $end
+$var wire 1 : sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin full_adder_gen[2] $end
+$scope module fa $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = c1 $end
+$var wire 1 > c2 $end
+$var wire 1 ? cin $end
+$var wire 1 @ cout $end
+$var wire 1 A s $end
+$var wire 1 B sum $end
+$scope module ha1 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = carry $end
+$var wire 1 A sum $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 A a $end
+$var wire 1 ? b $end
+$var wire 1 > carry $end
+$var wire 1 B sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin full_adder_gen[3] $end
+$scope module fa $end
+$var wire 1 C a $end
+$var wire 1 D b $end
+$var wire 1 E c1 $end
+$var wire 1 F c2 $end
+$var wire 1 G cin $end
+$var wire 1 H cout $end
+$var wire 1 I s $end
+$var wire 1 J sum $end
+$scope module ha1 $end
+$var wire 1 C a $end
+$var wire 1 D b $end
+$var wire 1 E carry $end
+$var wire 1 I sum $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 I a $end
+$var wire 1 G b $end
+$var wire 1 F carry $end
+$var wire 1 J sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 *
+0)
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10
+1:
+b10 "
+b10 *
+17
+10
+b10 (
+1-
+1,
+1+
+b1 $
+b1 '
+b1 #
+b1 &
+#20
+1!
+1H
+1F
+1G
+1@
+1>
+1?
+18
+b11110 (
+0:
+16
+0B
+0J
+b0 "
+b0 *
+19
+1A
+1I
+13
+1;
+1C
+b1111 #
+b1111 &
+#30
+0!
+0H
+1J
+0F
+0G
+0@
+1B
+0>
+0?
+08
+1:
+06
+07
+12
+b1111 "
+b1111 *
+00
+b0 (
+11
+0-
+1<
+0+
+0;
+b101 $
+b101 '
+b1010 #
+b1010 &
+#40
+1?
+1!
+17
+1G
+1:
+18
+1J
+1H
+02
+10
+1B
+b1110 "
+b1110 *
+1@
+b11110 (
+09
+15
+0I
+1E
+01
+1-
+0A
+1=
+14
+1D
+1+
+1;
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+#50
+1J
+1?
+1G
+0!
+0:
+16
+18
+0B
+1>
+1@
+0H
+12
+b1001 "
+b1001 *
+19
+05
+1A
+0=
+0E
+1/
+04
+0D
+0;
+0C
+1%
+b1111 (
+1)
+b101 $
+b101 '
+b11 #
+b11 &
+#60
